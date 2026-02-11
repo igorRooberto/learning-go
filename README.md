@@ -19,9 +19,9 @@ Aqui estão os conceitos fundamentais que explorei até agora:
 | **EX03** | Structs & Ponteiros | Adeus `Class`! Entendendo `*` (Original) vs Valor (Cópia). |
 | **EX04** | Composição (Embedding) | Substituindo `extends` (Herança) por Composição de Structs. |
 | **EX05** | Interfaces & Polimorfismo | Interfaces implícitas (Duck Typing) vs `implements`. |
-| **EX06** | Arrays, Slices & Maps | Dinamismo de Slices vs a rigidez dos Arrays no Java. |
+| **EX06** |  Defer & Panic | Gerenciamento de recursos e limpeza de pilha. |
 | **EX07** | Error Handling | O padrão `if err != nil` substituindo o `try-catch`. |
-| **EX08** | Defer & Panic | Gerenciamento de recursos e limpeza de pilha. |
+| **EX08** | Arrays, Slices & Maps | Dinamismo de Slices vs a rigidez dos Arrays no Java. |
 
 ## 💡 Principais Diferenças que notei (Java ➡ Go)
 
