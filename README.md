@@ -1,27 +1,28 @@
 # 🐹 Learning Go (Golang)
 
-> Minha jornada de migração e aprendizado: saindo do **Java** e explorando o poder do **Go**.
+> **Minha jornada de migração e aprendizado: saindo do Java e explorando o poder do Go.**
 
-![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+[![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)](https://go.dev/)
+[![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
 
 ## 📌 Sobre o Repositório
-Sou um Desenvolvedor Backend com foco em Java/Spring e este repositório documenta meus estudos práticos na linguagem Go. O objetivo é comparar paradigmas, entender a sintaxe e dominar a concorrência do Go.
+
+Este repositório documenta meus estudos práticos na linguagem Go (Golang). Como desenvolvedor Backend com background em **Java/Spring**, meu foco aqui é comparar paradigmas e entender a sintaxe e as particularidades do Go.
 
 ## 📂 Estrutura dos Estudos
 
-Aqui estão os conceitos fundamentais que explorei até agora:
+O repositório está organizado em diretórios numerados contendo exercícios práticos:
 
-| Pasta | Tópico | Comparativo Java vs Go |
+| Diretório | Tópico | O que foi praticado |
 | :--- | :--- | :--- |
-| **EX01** | Hello World & Variáveis | Declaração curta (`:=`) vs Tipagem explícita. |
-| **EX02** | Controle de Fluxo | O `for` faz papel de `while` e `do-while`. |
-| **EX03** | Structs & Ponteiros | Adeus `Class`! Entendendo `*` (Original) vs Valor (Cópia). |
-| **EX04** | Composição (Embedding) | Substituindo `extends` (Herança) por Composição de Structs. |
-| **EX05** | Interfaces & Polimorfismo | Interfaces implícitas (Duck Typing) vs `implements`. |
-| **EX06** |  Defer & Panic | Gerenciamento de recursos e limpeza de pilha. |
-| **EX07** | Error Handling | O padrão `if err != nil` substituindo o `try-catch`. |
-| **EX08** | Arrays, Slices & Maps | Dinamismo de Slices vs a rigidez dos Arrays no Java. |
+| **[EX01](./EX01)** | **Input & Output** | Uso de `fmt.Scan` para entrada de dados e `fmt.Printf` para formatação de strings. |
+| **[EX02](./EX02)** | **Funções & Erros** | Criando funções com múltiplos retornos (valor, erro) e validações básicas. |
+| **[EX03](./EX03)** | **Lógica & Strings** | Algoritmo para verificar palíndromos, manipulando índices e strings. |
+| **[EX04](./EX04)** | **Laços (Loops)** | Uso do `for` clássico para criar uma tabuada dinâmica. |
+| **[EX05](./EX05)** | **Interfaces & Structs** | Polimorfismo prático com interface `Geometria` e struct `Quadrado` (Duck Typing). |
+| **[EX06](./EX06)** | **Panic & Recover** | Gerenciamento de falhas graves usando `defer`, `panic` e `recover` (simulando try/catch). |
+| **[EX07](./EX07)** | **Switch & Condicionais** | Verificação de números pares/ímpares utilizando `switch case` dentro de um loop. |
+| **[EX08](./EX08)** | **Conversão & Tipos** | Conversor de Celsius para Fahrenheit explorando tipos `float64` e operações matemáticas. |
 
 ## 💡 Principais Diferenças que notei (Java ➡ Go)
 
