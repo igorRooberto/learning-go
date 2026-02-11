@@ -19,15 +19,19 @@ Aqui estão os conceitos fundamentais que explorei até agora:
 | **EX03** | Structs & Ponteiros | Adeus `Class`! Entendendo `*` (Original) vs Valor (Cópia). |
 | **EX04** | Composição (Embedding) | Substituindo `extends` (Herança) por Composição de Structs. |
 | **EX05** | Interfaces & Polimorfismo | Interfaces implícitas (Duck Typing) vs `implements`. |
+| **EX06** | Arrays, Slices & Maps | Dinamismo de Slices vs a rigidez dos Arrays no Java. |
+| **EX07** | Error Handling | O padrão `if err != nil` substituindo o `try-catch`. |
+| **EX08** | Defer & Panic | Gerenciamento de recursos e limpeza de pilha. |
 
 ## 💡 Principais Diferenças que notei (Java ➡ Go)
 
 Durante esses exercícios, destaquei as maiores mudanças de paradigma:
 
-1.  **Sem Classes, só Structs:** Go não tem classes. Dados são separados de comportamentos.
-2.  **Herança não existe:** Não existe `Funcionario extends Pessoa`. Existe uma `Pessoa` dentro de `Funcionario`.
-3.  **Interfaces Implícitas:** Não preciso declarar que implemento uma interface. Se eu tenho o método, eu implemento.
-4.  **Tratamento de Erros:** Nada de `try-catch`. O erro é retornado como valor.
+1. **Sem Classes, só Structs:** Go não tem classes. Dados são separados de comportamentos através de *receivers*.
+2. **Herança não existe:** Substituímos o `extends` pela Composição (Embedding).
+3. **Interfaces Implícitas:** Se um tipo satisfaz o contrato da interface, ele a implementa automaticamente.
+4. **Tratamento de Erros:** Nada de exceções pesadas. Erros são valores de retorno comuns.
+5. **Zero Value:** Diferente do Java (onde tudo pode ser `null`), no Go variáveis não inicializadas têm um valor padrão (0, "", false).
 
 ---
 Developed by [Igor Rooberto](https://github.com/igorRooberto)
